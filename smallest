@@ -1,0 +1,4 @@
+import pandas as pd  
+df = pd.read_csv("C:\\Users\\Prabha\\Downloads\\RE__D-Cult_-_Workshop_preparation_\\BPD_Arrests\\BPD_Arrests.csv")  
+lar=df.nsmallest(1,'Arrest')
+lar["Age"]  
